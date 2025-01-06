@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Linking` API to handle deep links on Android.  If the app is already open and a deep link is tapped, the `Linking.addEventListener` doesn't always trigger.  This can lead to the deep link not being processed correctly, and the app may not navigate to the intended screen.
